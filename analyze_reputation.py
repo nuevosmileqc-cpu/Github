@@ -413,32 +413,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
----
-
-## ⚙️ AJOUTER LA CLÉ API DANS RAILWAY
-
-**Dans Railway Dashboard:**
-```
-1. Service Github → Variables
-2. Clique "+ New Variable"
-3. Ajoute:
-
-Name: SERPAPI_KEY
-Value: [ta_clé_serpapi]
-
-4. Railway redéploie automatiquement
-```
-
----
-
-## ✅ AVANTAGES SERPAPI
-```
-✅ Plus simple (1 appel au lieu de 2)
-✅ Plus rapide (15-20 secondes)
-✅ Plus fiable (pas de timeout)
-✅ Avis détaillés inclus (jusqu'à 20)
-✅ Analyse IA possible
-✅ 100 recherches gratuites/mois
-
