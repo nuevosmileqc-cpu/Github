@@ -71,7 +71,7 @@ class ReputationAnalyzer:
             print(f"⏳ Task {task_id} créé. En attente résultats...")
             
             # Polling pour résultats (max 90 secondes pour les reviews)
-            for attempt in range(18):  # 18 x 5 = 90 secondes
+            for attempt in range(30):  # 30 x 5 = 150 secondes
                 time.sleep(5)
                 
                 status_response = requests.get(
@@ -442,4 +442,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
