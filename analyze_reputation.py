@@ -53,6 +53,7 @@ class ReputationAnalyzer:
             "query": query,
             "language": "es",
             "region": "CO",
+            "reviewsLimit": 20
         }
         
         try:
@@ -444,3 +445,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
